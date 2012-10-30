@@ -7,7 +7,7 @@ class Fraccionario
 	
 #-------------------------------------------------------------------------------   
 	def mcd(a,b)
-		d = a.abs, b.abs #[a.abs, b.abs]
+		d = a.abs, b.abs
 		while d.min != 0
 			d = d.min, d.max%d.min
 		end
