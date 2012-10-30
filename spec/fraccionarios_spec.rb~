@@ -1,4 +1,4 @@
-require 'lib/fraccionarios'
+require 'fraccionarios'
 
 describe Fraccionario do
   before :each do
